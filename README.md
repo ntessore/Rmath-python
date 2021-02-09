@@ -1,13 +1,26 @@
 Rmath-python
 ============
 
-This is a slightly modified version of the [standalone Rmath library from
-R][Rmath], built to be used from Python. It is based on the [Rmath-julia]
-library but does not alter the random number generation.
+This is the [standalone Rmath library from R][Rmath] for Python. It is based on
+the [Rmath-julia] library but does not alter the random number generation.
 
 
-Updating
---------
+Installation
+------------
+
+The package is available for pip installation:
+
+    pip install Rmath
+
+Alternatively, you can clone or download this repository, and install from
+there in the usual way.
+
+In either case, a functional build system is required, but there are no
+dependencies.
+
+
+Updating the Library
+--------------------
 
 To update to the latest version of R, bump the `RVERSION` file, and run `make
 update`. Some additional manual changes to the headers may be necessary: these
