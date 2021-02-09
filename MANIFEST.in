@@ -1,0 +1,4 @@
+include RVERSION
+include include/*.h
+include include/R_ext/*.h
+include src/*.h

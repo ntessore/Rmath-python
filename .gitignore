@@ -1,0 +1,7 @@
+# Python
+build
+dist
+*.egg-info
+
+# R tarballs
+R-*.tar.gz
